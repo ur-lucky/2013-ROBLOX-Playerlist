@@ -1,0 +1,24 @@
+[package]
+name = "brooke/roblox-project-template"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+React = "jsdotlua/react@17.1.0"
+ReactRoblox = "jsdotlua/react-roblox@17.1.0"
+Promise = "lukadev-0/typed-promise@4.0.2"
+Janitor = "howmanysmall/janitor@1.17.0"
+UI-Labs = "pepeeltoro41/ui-labs@2.3.0"
+Sift = "csqrl/sift@0.0.9"
+Ripple = "littensy/ripple@0.9.2"
+ReactErrorBoundary = "chriscerie/react-error-boundary@0.2.0"
+
+Remo = "littensy/remo@1.5.1"
+
+Reflex = "littensy/reflex@4.3.1"
+React-Reflex = "littensy/react-reflex@0.3.6"
+
+Charm = "littensy/charm@0.8.1"
+CharmSync = "littensy/charm-sync@0.1.1"
+ReactCharm = "littensy/react-charm@0.1.1"

@@ -1,0 +1,13 @@
+.github
+.vscode
+.editorconfig
+**/*.sh
+darklua/
+Packages/
+**/*.rbx[lm]*
+.DS_Store
+**/sourcemap.json
+sourcemap.json
+roblox.yml
+roblox.toml
+globalTypes.d.lua

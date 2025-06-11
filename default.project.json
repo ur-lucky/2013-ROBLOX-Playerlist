@@ -1,0 +1,50 @@
+{
+    "name": "RobloxProjectTemplate",
+    "emitLegacyScripts": false,
+    "tree": {
+        "$className": "DataModel",
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "server": {
+                "$path": "src/server"
+            }
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Packages": {
+                "$path": "Packages"
+            },
+            "shared": {
+                "$path": "src/shared"
+            },
+            "client": {
+                "$path": "src/client"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts"
+            }
+        },
+        "Workspace": {
+            "$className": "Workspace",
+            "Baseplate": {
+                "$className": "Part",
+                "$properties": {
+                    "Anchored": true,
+                    "Size": [
+                        15.0,
+                        1.0,
+                        15.0
+                    ],
+                    "Position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        }
+    }
+}
